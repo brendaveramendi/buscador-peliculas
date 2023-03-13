@@ -1,7 +1,8 @@
 import './App.css'
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState, useRef, useCallback } from 'react'
 import { Movies } from './components/Movies'
 import { useMovies } from './hooks/useMovies'
+import debounce from 'just-debounce-it'
 
 function useSearch () {
   const [search, updateSearch] = useState('')
@@ -30,15 +31,28 @@ function useSearch () {
 }
 
 function App () {
+  const [sort, setSort] = useState(false)
   const { search, updateSearch, error } = useSearch('')
-  const { movies, loading, getMovies } = useMovies({ search })
+  const { movies, loading, getMovies } = useMovies({ search, sort })
+
+  const debouncedGetMovies = useCallback(
+    debounce(search => {
+      getMovies({ search })
+    }, 300)
+    , [getMovies]
+  )
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    getMovies()
+    getMovies({ search })
+  }
+  const handleSort = () => {
+    setSort(!sort)
   }
   const handleChange = (event) => {
-    updateSearch(event.target.value)
+    const newSearch = event.target.value
+    updateSearch(newSearch)
+    debouncedGetMovies(newSearch)
   }
 
   return (
@@ -46,6 +60,7 @@ function App () {
       <header>
       <form className='form' onSubmit={handleSubmit}>
         <input onChange={handleChange} value ={search} type='text' placeholder='Avengers, Star Wars, Matrix' />
+        <input type='checkbox' onChange={handleSort} checked={sort} />
         <button type='submit'>Buscar</button>
       </form>
       </header>
