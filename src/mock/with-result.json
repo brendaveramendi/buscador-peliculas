@@ -1,0 +1,76 @@
+{
+    "Search": [
+      {
+        "Title": "Rampage",
+        "Year": "2018",
+        "imdbID": "tt2231461",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNDA1NjA3ODU3OV5BMl5BanBnXkFtZTgwOTg3MTIwNTM@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Rampage",
+        "Year": "2009",
+        "imdbID": "tt1337057",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTU2ODI5MTgtNTUxZS00M2ZiLTg5YTktNjM3NzM4Yjc5NzQyXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Rampage: Capital Punishment",
+        "Year": "2014",
+        "imdbID": "tt3448226",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTA3MjEzMzI0ODheQTJeQWpwZ15BbWU4MDg0NzI4NTIx._V1_SX300.jpg"
+      },
+      {
+        "Title": "Rampage: President Down",
+        "Year": "2016",
+        "imdbID": "tt4146622",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BY2VlMzFmNTYtYmVhZS00NGE3LWE0NWEtM2VhYmYxYjYxOGMwXkEyXkFqcGdeQXVyNjc2OTE1MDQ@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Rampage",
+        "Year": "1987",
+        "imdbID": "tt0095958",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNjIxNGJmMzgtMGE5NS00ZDViLWIxMzAtMmMxNjYxODY1Mjk0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      },
+      {
+        "Title": "The Last Rampage",
+        "Year": "2017",
+        "imdbID": "tt5833186",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMmU2ZGNkNDctYTJkYS00YzQ0LTk3MzUtZDI1MjZkYTFhNmFmXkEyXkFqcGdeQXVyMTcwMjE4MTQ@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Tokyo Rampage",
+        "Year": "1998",
+        "imdbID": "tt0166314",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTg3NjExNDUzNV5BMl5BanBnXkFtZTcwMzY0NzMzMQ@@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Rampage: The Hillside Strangler Murders",
+        "Year": "2006",
+        "imdbID": "tt0373900",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTUxMTg2Mzc0M15BMl5BanBnXkFtZTYwNzI3Nzc3._V1_SX300.jpg"
+      },
+      {
+        "Title": "Rabbit Rampage",
+        "Year": "1955",
+        "imdbID": "tt0048529",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZGZiZDA1MGYtMmM3Zi00MDk2LWI3M2YtY2MyMjM5MDQ1NTEyXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Rampage",
+        "Year": "1963",
+        "imdbID": "tt0057447",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYzhiZDY1YzItNzUxMC00MWU3LWFkMzctZWZhMzU0ZmRkYjYzXkEyXkFqcGdeQXVyMDUyOTUyNQ@@._V1_SX300.jpg"
+      }
+    ],
+    "totalResults": "114",
+    "Response": "True"
+  }
